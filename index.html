@@ -1,106 +1,45 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Crianças Felizes</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<header>
-			<div class="header-bloco-menu">
-				<img class="header-menu-imgem-logo" src="assets/Logo.jpg">
-				<label for="hamburguer">&#9776;</label>
-				<input type="checkbox" name="menu" id="hamburguer">
-				<nav class="header-menu-nave">
-					<a class="header-menu-nave-link" href="#Sobre">Sobre</a>
-					<a class="header-menu-nave-link" href="#Atividades">Atividades</a>
-					<a class="header-menu-nave-link" href="#Parceiros">Parceiros</a>
-					<a class="header-menu-nave-link" href="#Contatos">Contatos</a>
-				</nav>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, scale=1">
+	<title>Crianças Felizes</title>
+</head>
+<body>
+	<section class="containerFirst">
+		<h1 class="containerFirst--title">A sua ajuda pode mudar esse nosso lugar!</h1>
+		<div class="containerFirst__block">
+			<img class="containerFirst__block--image" 
+				src="assets/Menino.png">
+			<img class="containerFirst__block--imageNuvem" 
+				src="assets/Nuvem.png">	
+		</div>
+	</section>
+	<main>
+		<section class="containerHistory">
+			<div class="containerHistory__block">
+				<p class="containerHistory__block--paragraph">O Projeto Crianças Felizes é uma uma iniciativa do Luciano Daniel, jovem morador do alemão, que aos 13 anos de idade fundou o projeto na intenção de reduzir as mazelas trazidas pelas obras do Pac.</p>
+				<p class="containerHistory__block--paragraph">Depois que o Programa do Governo Federal passou pela comunidade, uma série de problemas começaram a surgir, como esgoto a céu aberto, entulhos das casas derrubadas, acúmulo de lixo em local impróprio para o descarte.</p>
+				<p class="containerHistory__block--paragraph">Em 4 de maio de 2013, o projeto surge como forma de resistência, promovendo desde então, mais de 20 ações que beneficiaram mais de 8.000 crianças.</p>
 			</div>
-			<div class="header-bloco-painel">
-				<img class="header-painel-imgem-fundo" src="assets/Fundo.jpg">
-				<h1 class="header-painel-titulo">A sua ajuda pode mudar esse nosso lugar!</h1>
-			</div class="header-bloco-imgem">
-			<img class="header-imgem-crianca" src="assets/Menino.png">
-			<div class="header-bloco-posicao">
-				<img class="header-posicao-imgem-nuvem" src="assets/Nuvem.png">
+			<div class="containerHistory__blockImage">
+				<p class="seta">&#9668;&#9658;</p>
+				<img class="containerHistory__blockImage--image" 
+					src="assets/Foto01.jpg">
 			</div>
-		</header>
-		<main>
-			<section class="main-container-projeto">
-				<div class="main-projeto-bloco-texto" id="Sobre">
-					<p class="main-projeto-texto-paragrafo">O <b>Projeto Crianças Felizes</b> é uma uma iniciativa do Luciano Daniel, jovem morador do alemão, que aos 13 anos de idade fundou o projeto na intenção de reduzir as mazelas trazidas pelas obras do Pac.</p>
-					<p class="main-projeto-texto-paragrafo">Depois que o Programa do Governo Federal passou pela comunidade, uma série de problemas começaram a surgir, como esgoto a céu aberto, entulhos das casas derrubadas, acúmulo de lixo em local impróprio para o descarte.</p>
-					<p class="main-projeto-texto-paragrafo">Em 4 de maio de 2013, o projeto surge como forma de resistência, promovendo desde então, mais de 20 ações que beneficiaram mais de 8.000 crianças.</p>
-				</div>
-				<div class="main-projeto-bloco-fotografias" id="Atividades">
-					<p class="main-projeto-fotografias-texto">Mais Fotos.</p>
-					<ul>
-						<li><a href="#img1"><img src="assets/Foto01.jpg" class="slide"></a></li>
-						<li><a href="#img2"><img src="assets/Foto02.jpg" class="slide"></a></li>
-						<li><a href="#img3"><img src="assets/Foto03.jpg" class="slide"></a></li>
-						<li><a href="#img4"><img src="assets/Foto04.jpg" class="slide"></a></li>
-					</ul>
-					<div class="box" id="img1">
-						<div class="box-img">
-							<a href="#img4" class="btn" id="prev">&#9668;</a>
-							<a href="" class="btn" id="close">X</a>
-							<img src="assets/Foto01.jpg">
-							<a href="#img2" class="btn" id="next">&#9658;</a>
-						</div>
-					</div>
-					<div class="box" id="img2">
-						<div class="box-img">
-							<a href="#img1" class="btn" id="prev">&#9668;</a>
-							<a href="" class="btn" id="close">X</a>
-							<img src="assets/Foto02.jpg">
-							<a href="#img3" class="btn" id="next">&#9658;</a>
-						</div>
-					</div>
-					<div class="box" id="img3">
-						<div class="box-img">
-							<a href="#img2" class="btn" id="prev">&#9668;</a>
-							<a href="" class="btn" id="close">X</a>
-							<img src="assets/Foto03.jpg">
-							<a href="#img4" class="btn" id="next">&#9658;</a>
-						</div>
-					</div>
-					<div class="box" id="img4">
-						<div class="box-img">
-							<a href="#img3" class="btn" id="prev">&#9668;</a>
-							<a href="" class="btn" id="close">X</a>
-							<img src="assets/Foto04.jpg">
-							<a href="#img1" class="btn" id="next">&#9658;</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="main-container-patrocinadores" id="Parceiros">
-				<h1 class="main-patrocinadores-titulo">PARCEIROS</h1>	
-				<div class="main-patrocinadores-bloco-parcerias">			
-					<img class="main-patrocinadores-parcerias-imagem-um" src="assets/Brasil.png">
-					<img class="main-patrocinadores-parcerias-imagem-dois" src="assets/Futuro.jpeg">
-					<img class="main-patrocinadores-parcerias-imagem-tres" src="assets/Educap.png">
-				</div>
-			</section>
-		</main>
-		<footer>
-			<section class="footer-container-rodape" id="Contatos">
-				<div class="footer-rodape-bloco-contato">
-					<h1 class="footer-rodape-contato-titulo">CONTATO</h1>
-					<p class="footer-rodape-contato-texto">Estamos sempre precisando de voluntários e parceiros para concretizar as ações.</p>
-					<p class="footer-rodape-contato-texto">Nos ajude a continuar esse movimento!</p>
-					<p class="footer-rodape-contato-dados">(21) 96716-7476</p>
-					<p class="footer-rodape-contato-dados">facebook.com/projetocriancasfelizes</p>
-					<img class="footer-rodape-contato-imgem-credito" src="assets/Creditos.png">
-					<img class="footer-rodape-contato-imgem-icone" src="assets/VainaWeb.png">
-				</div>
-				<div class="footer-rodape-bloco-final">
-					<img class="footer-rodape-final-imgem" src="assets/Fechamento.png">
-				</div>
-			</section>
-		</footer>
-	</body>
+		</section>
+		<section class="containerParceiros">
+			<h1 class="containerParceiros--title">Parceiros</h1>
+			<div class="containerParceiros__block">
+				<img class="containerPareiros__block--image" 
+					src="assets/Brasil.png">
+				<img class="containerPareiros__block--imageFm" 
+					src="assets/Futuro.jpeg">
+				<img class="containerPareiros__block--imageEdu" 
+					src="assets/Educap.png">
+			</div>
+		</section>
+	</main>	
+</body>
 </html>
